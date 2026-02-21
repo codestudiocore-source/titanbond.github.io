@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TITAN BOND — Premium Industrial Adhesives</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg" id="mainNavbar">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#home">
+      <img src="data:image/png;base64,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0ouD3yhsYlmp2vjnJDQRhwExaBjksztGQud/nLap1lBERdEty9Ar5BfuktgmhEbX0lK2hmjbKHlj4R4/tjG0uaGv2n0Hj37NZdz3TK/X/U1v1Hpi1fNM8DKWtjhaxjmyB4bHI4lwL8h4aTjDGxAkgeuXssuc8ti1HZnMjFPS1UNUxwB3l0rXNcCc4xiFmOP9++MaDGTyuHccuOn4jdK2v8Hpi1WTz/J/H0UNIJdm3yeNgbuxk4zgHGSsw94eoWXHXNv0/C6JzLRSl0uGOD2zTYcWkngjY2IjH/Y5P8DWAz/vBx7Xnjqq6fnNT3W9+D4/5CtmqvFv3ePyPLtucDOM4zgLfjm7tlvEaiKxO3G0tu/WOxRzUclTBSvfVybA7ERjY50b3FvoCTx++CSAc5wetuomdavtIoOnHSml/KfGghstsZ8v421rZZWsG/Zu2gufITjOC5zxnkrCt1r6u6XSrudfL5qusnfPPJtDd8j3FzjgAAZJPAGFfPdn1CnqrlJ0+ooZYIKR8U1fMZCPO8sD2RgA42AOa47vbgMAbMuz6pwnNtyoiIrSIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiArk7WtfS6b1gzTFY7da75OyNpc558FTyI3NaMj7ktY7gf8CSA3BptFlm5psuq7J1P0z/AIfr276cbL5oqSb9F5ducYntD49xwPtsc3OBjOccLral9X6huWqtQT327ujfXVDImzPjZtDyyNse7HoEhgJxgZJwAOFEJPC+rJ7Z6/4HWex7634sNT5qeXMuxsu6J+yM84dmQMwD7dtxzhbYJC857VXVVrulJc6GXw1dJMyeCTaHbHscHNOCCDggcEYXoLpa6i+aYtN6EHxxcKKGqMW/d4/IwO25wM4zjOAufyTrZeOt9drr+H6Qamqvj+fyURpdm/bjzFsO7OD68m7H84xxnKwqtT96Fzgi0dYrO5knnqrg6qY4AbA2KMtcCc5zmZuOP4PrjOWFWHmzIV/dv9ZQdPel+oupV2pvLLUTsorfA5jY5J9vOI5He2ue77bQcCBxw4twKBU3dNU3m46WtOmJqnbabV5HQU8eQ18j3veZH/8AZ33LQfQHoAlxO5TfGS6Rt1rqq6XOruddL5qurmfPPJtDd73uLnHAAAySeBwvmRFTBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQFsrtb1HBeulNJb/lSTV1oe+lqGyyAvawuc6IjknZsIY3OP2OA4asaq6O1zW9p0fVaobeHxw08tvbVte6drHyOgLv0Y2uID3vEpwMj9v8AeRGc3FY+vi7srr+R6v1FJ4PF+MooKTdv3eTIM27GOP8Azbcc/tz/ADgVIvputdVXS6VdzrpfNV1cz555Nobve9xc44AAGSTwBhfMqk1NMt3RERawREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQf/9k=" alt="Titan Bond Logo" class="brand-logo-img" />
+      TITAN BOND
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" title="Toggle navigation menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="#applications">Applications</a></li>
+        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#specs">Specs</a></li>
+        <li class="nav-item ms-lg-3">
+          <a class="nav-link nav-cta" href="#products"><i class="fas fa-layer-group me-2"></i>Our Products</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section class="hero" id="home">
+  <div class="hero-orb orb1"></div>
+  <div class="hero-orb orb2"></div>
+  <div class="hero-orb orb3"></div>
+  <div class="container py-5">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="fas fa-flag-usa"></i> Formulated in USA &nbsp;•&nbsp; 🇵🇰 Operating in Pakistan
+          </div>
+          <h1>Industrial<br/>Adhesives That<br/><span>Bond Forever</span></h1>
+          <p class="hero-tagline">STRENGTH IS OUR IDENTITY</p>
+          <p class="hero-sub">Premium adhesive solutions engineered for superior bonding strength, durability, and long-term reliability — from footwear manufacturing to heavy-duty industrial applications.</p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#products" class="btn btn-hero-primary"><i class="fas fa-layer-group me-2"></i>Explore Products</a>
+            <a href="#specs" class="btn btn-hero-outline"><i class="fas fa-file-alt me-2"></i>View Specifications</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-number"><span class="counter" data-target="500">0</span>+</div>
+              <div class="stat-label">Clients Served</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number"><span class="counter" data-target="15">0</span>+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number"><span class="counter" data-target="99">0</span>%</div>
+              <div class="stat-label">Satisfaction Rate</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 hero-visual-col">
+        <div class="hero-product-card hero-product-wrapper p-0">
+          <div class="hero-product-inner">
+            <div class="hero-product-mockup">
+            <div class="product-mockup-overlay"></div>
+            <div class="product-info-footer">
+              <div class="product-badges-row">
+                <span class="badge-accent">Fast Drying Formula</span>
+                <span class="badge-gold">Pro Grade</span>
+              </div>
+              <h4 class="product-footer-title">Industrial Shoe Adhesive</h4>
+              <p class="product-footer-desc">For Professional &amp; Industrial Use</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<hr class="gradient-divider"/>
+
+<section id="about">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6 reveal reveal-left">
+        <div class="about-visual">
+          <div class="text-center mb-4 about-visual-header">
+            <div class="about-emoji">🔬</div>
+            <h3 class="text-white fw-bold mb-0 about-visual-title">Formulated for Strength</h3>
+            <p class="about-visual-subtitle">Built to last under any condition</p>
+          </div>
+          <div class="row g-3 mt-2">
+            <div class="col-6">
+              <div class="about-stat-box">
+                <div class="stat-box-number">5+</div>
+                <div class="stat-box-label">Product Lines</div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="about-stat-box">
+                <div class="stat-box-number stat-accent">100%</div>
+                <div class="stat-box-label">Quality Tested</div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="about-quote-box">
+                <p class="about-quote-text">"A true bond grows stronger over time."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 reveal reveal-right">
+        <div class="section-badge">About Us</div>
+        <h2 class="section-title">Precision, Innovation<br/>& Trust</h2>
+        <p class="about-description">Proudly operating in Pakistan with formulations developed in the USA, TITAN BOND represents a fusion of advanced formulation expertise and uncompromising quality standards. We deliver adhesive solutions engineered for performance under pressure.</p>
+        <div class="about-feature">
+          <div class="feature-icon"><i class="fas fa-flask"></i></div>
+          <div>
+            <h6 class="fw-bold mb-1">Advanced Formulation</h6>
+            <p class="feature-description">Developed using high-grade raw materials with strict quality control processes ensuring consistent results.</p>
+          </div>
+        </div>
+        <div class="about-feature">
+          <div class="feature-icon"><i class="fas fa-industry"></i></div>
+          <div>
+            <h6 class="fw-bold mb-1">Industry-Grade Performance</h6>
+            <p class="feature-description">Designed for demanding manufacturing environments from footwear to heavy industrial applications.</p>
+          </div>
+        </div>
+        <div class="about-feature">
+          <div class="feature-icon"><i class="fas fa-shield-halved"></i></div>
+          <div>
+            <h6 class="fw-bold mb-1">Certified & Reliable</h6>
+            <p class="feature-description">Every product reflects our commitment to precision, innovation, and long-term trust with our clients.</p>
+          </div>
+        </div>
+        <div class="about-feature">
+          <div class="feature-icon"><i class="fas fa-globe"></i></div>
+          <div>
+            <h6 class="fw-bold mb-1">USA Formulated · Pakistan Operated</h6>
+            <p class="feature-description">Combining American formulation expertise with local market knowledge for the best of both worlds.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="gradient-divider"/>
+
+<section id="products">
+  <div class="container">
+    <div class="text-center mb-5 reveal">
+      <div class="section-badge">Our Products</div>
+      <h2 class="section-title">Premium Adhesive Solutions</h2>
+      <p class="section-subtitle">Engineered for every demanding application — from industrial manufacturing to precision footwear bonding.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+        <div class="product-card">
+          <div class="product-img-area">
+            <div class="product-badge">PREMIUM</div>
+            <div class="product-emoji">🧪</div>
+          </div>
+          <div class="product-body">
+            <p class="product-formula">Premium Formula</p>
+            <h5 class="product-title">Industrial Adhesive</h5>
+            <p class="product-desc">Professional-grade adhesive specifically engineered for heavy-duty industrial applications with superior bonding strength and durability.</p>
+            <ul class="product-features">
+              <li><i class="fas fa-circle-dot"></i> Superior bonding strength</li>
+              <li><i class="fas fa-circle-dot"></i> High temperature resistant</li>
+              <li><i class="fas fa-circle-dot"></i> Long-term durability</li>
+              <li><i class="fas fa-circle-dot"></i> For demanding environments</li>
+            </ul>
+            <a href="#specs" class="btn btn-product">Learn More <i class="fas fa-arrow-right ms-2"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+        <div class="product-card">
+          <div class="product-img-area">
+            <div class="product-badge">FAST DRY</div>
+            <div class="product-emoji">👟</div>
+          </div>
+          <div class="product-body">
+            <p class="product-formula">Fast Drying Formula</p>
+            <h5 class="product-title">Footwear Adhesive</h5>
+            <p class="product-desc">Specialized formulation for the footwear industry engineered for superior shoe sole bonding and high-speed manufacturing applications.</p>
+            <ul class="product-features">
+              <li><i class="fas fa-circle-dot"></i> Fast drying technology</li>
+              <li><i class="fas fa-circle-dot"></i> Superior sole bonding</li>
+              <li><i class="fas fa-circle-dot"></i> Flexible after cure</li>
+              <li><i class="fas fa-circle-dot"></i> Production-line ready</li>
+            </ul>
+            <a href="#specs" class="btn btn-product">Learn More <i class="fas fa-arrow-right ms-2"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal reveal-delay-3">
+        <div class="product-card">
+          <div class="product-img-area">
+            <div class="product-badge">MULTI-USE</div>
+            <div class="product-emoji">🏠</div>
+          </div>
+          <div class="product-body">
+            <p class="product-formula">Versatile Formula</p>
+            <h5 class="product-title">General Purpose Adhesive</h5>
+            <p class="product-desc">Versatile adhesive formulations suitable for a wide range of bonding needs across general industrial, furniture, and construction applications.</p>
+            <ul class="product-features">
+              <li><i class="fas fa-circle-dot"></i> Wide material compatibility</li>
+              <li><i class="fas fa-circle-dot"></i> Easy application</li>
+              <li><i class="fas fa-circle-dot"></i> Cost-effective</li>
+              <li><i class="fas fa-circle-dot"></i> Multi-surface bonding</li>
+            </ul>
+            <a href="#specs" class="btn btn-product">Learn More <i class="fas fa-arrow-right ms-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="gradient-divider"/>
+
+<section id="applications">
+  <div class="container">
+    <div class="text-center mb-5 reveal">
+      <div class="section-badge">Applications</div>
+      <h2 class="section-title">Built for Every Industry</h2>
+      <p class="section-subtitle">From heavy machinery to fine furniture — Titan Bond performs where it matters most.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-sm-6 col-lg-4 reveal reveal-delay-1">
+        <div class="app-card">
+          <div class="app-icon-wrap"><i class="fas fa-industry app-icon"></i></div>
+          <h5 class="app-title">Industrial Uses</h5>
+          <p class="app-desc">Heavy-duty bonding solutions for machinery assembly, equipment repair, and demanding industrial bonding requirements across manufacturing sectors.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 reveal reveal-delay-2">
+        <div class="app-card">
+          <div class="app-icon-wrap"><i class="fas fa-shoe-prints app-icon"></i></div>
+          <h5 class="app-title">Footwear Industry</h5>
+          <p class="app-desc">Professional-grade adhesive specifically formulated for shoe manufacturing and repair. Engineered for superior sole bonding and durability.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 reveal reveal-delay-3">
+        <div class="app-card">
+          <div class="app-icon-wrap"><i class="fas fa-couch app-icon"></i></div>
+          <h5 class="app-title">Furniture & Interior</h5>
+          <p class="app-desc">Reliable bonding solutions for furniture assembly, panel bonding, and interior design applications requiring precision and long-term strength.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 reveal reveal-delay-1">
+        <div class="app-card">
+          <div class="app-icon-wrap"><i class="fas fa-car app-icon"></i></div>
+          <h5 class="app-title">Automotive Applications</h5>
+          <p class="app-desc">Specialized adhesive for vehicle assembly, component bonding, and automotive manufacturing requiring high-performance durability under pressure.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 reveal reveal-delay-2">
+        <div class="app-card">
+          <div class="app-icon-wrap"><i class="fas fa-hard-hat app-icon"></i></div>
+          <h5 class="app-title">Construction</h5>
+          <p class="app-desc">Reliable adhesive solutions for construction applications including panel installation, structural bonding, and waterproofing applications.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 reveal reveal-delay-3">
+        <div class="app-card">
+          <div class="app-icon-wrap"><i class="fas fa-boxes-stacked app-icon"></i></div>
+          <h5 class="app-title">General Applications</h5>
+          <p class="app-desc">Versatile adhesive formulations suitable for various bonding needs across multiple industries and everyday professional applications.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="gradient-divider"/>
+<section id="features">
+  <div class="container">
+    <div class="text-center mb-5 reveal">
+      <div class="section-badge">Why Titan Bond</div>
+      <h2 class="section-title">The Titan Bond Advantage</h2>
+      <p class="section-subtitle">Every feature of our adhesives is engineered with one purpose — to deliver unmatched performance in the most demanding conditions.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-xl-3 reveal reveal-delay-1">
+        <div class="feature-card">
+          <div class="feature-num">01</div>
+          <div class="feature-icon mb-3"><i class="fas fa-medal"></i></div>
+          <h5 class="fw-bold mb-2 feature-card-title">Premium Quality</h5>
+          <p class="feature-card-text">Engineered with precision and care, our adhesives meet the highest industry standards for performance and reliability in every batch.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-xl-3 reveal reveal-delay-2">
+        <div class="feature-card">
+          <div class="feature-num">02</div>
+          <div class="feature-icon mb-3"><i class="fas fa-bolt"></i></div>
+          <h5 class="fw-bold mb-2 feature-card-title">Innovation & Performance</h5>
+          <p class="feature-card-text">Advanced formulations developed through extensive research to deliver superior bonding strength in every application, every time.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-xl-3 reveal reveal-delay-3">
+        <div class="feature-card">
+          <div class="feature-num">03</div>
+          <div class="feature-icon mb-3"><i class="fas fa-handshake"></i></div>
+          <h5 class="fw-bold mb-2 feature-card-title">Trusted by Industries</h5>
+          <p class="feature-card-text">Hundreds of businesses across Pakistan rely on Titan Bond for consistent, high-quality adhesive solutions that never compromise.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-xl-3 reveal reveal-delay-4">
+        <div class="feature-card">
+          <div class="feature-num">04</div>
+          <div class="feature-icon mb-3"><i class="fas fa-headset"></i></div>
+          <h5 class="fw-bold mb-2 feature-card-title">Expert Support</h5>
+          <p class="feature-card-text">Our technical team is always available to help you find the right adhesive solution and ensure optimal results for your application.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="gradient-divider"/>
+
+<section id="specs">
+  <div class="container specs-container">
+    <div class="text-center mb-5 reveal">
+      <div class="section-badge specs-badge">Technical Specs</div>
+      <h2 class="section-title specs-title">Technical Specifications</h2>
+      <p class="section-subtitle specs-subtitle">Complete technical data and performance characteristics for our adhesive formulations.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-6 reveal reveal-left">
+        <div class="specs-glass">
+          <h5 class="specs-glass-title">Industrial Adhesive — Specs</h5>
+          <div class="spec-row"><span class="spec-label">Formulation Type</span><span class="spec-value">Solvent-Based Contact Adhesive</span></div>
+          <div class="spec-row"><span class="spec-label">Open Time</span><span class="spec-value">10–15 minutes</span></div>
+          <div class="spec-row"><span class="spec-label">Full Cure Time</span><span class="spec-value">24 hours</span></div>
+          <div class="spec-row"><span class="spec-label">Temperature Resistance</span><span class="spec-value">-20°C to +80°C</span></div>
+          <div class="spec-row"><span class="spec-label">Bonding Strength</span><span class="spec-badge">HIGH GRIP</span></div>
+          <div class="spec-row"><span class="spec-label">Flash Point</span><span class="spec-value">~18°C (Flammable)</span></div>
+          <div class="spec-row"><span class="spec-label">Compatible Surfaces</span><span class="spec-value">Rubber, Leather, Metal, Wood</span></div>
+          <div class="spec-row"><span class="spec-label">Storage Temp</span><span class="spec-value">5°C – 25°C, away from sunlight</span></div>
+        </div>
+      </div>
+      <div class="col-lg-6 reveal reveal-right">
+        <div class="specs-glass">
+          <h5 class="specs-glass-title">Footwear Adhesive — Specs</h5>
+          <div class="spec-row"><span class="spec-label">Formulation Type</span><span class="spec-value">Fast-Dry Contact Adhesive</span></div>
+          <div class="spec-row"><span class="spec-label">Dry Time</span><span class="spec-value">3–5 minutes</span></div>
+          <div class="spec-row"><span class="spec-label">Full Cure Time</span><span class="spec-value">12–18 hours</span></div>
+          <div class="spec-row"><span class="spec-label">Flexibility</span><span class="spec-badge">HIGH FLEX</span></div>
+          <div class="spec-row"><span class="spec-label">Water Resistance</span><span class="spec-value">Excellent (after full cure)</span></div>
+          <div class="spec-row"><span class="spec-label">Shear Strength</span><span class="spec-value">&gt; 3.5 N/mm²</span></div>
+          <div class="spec-row"><span class="spec-label">Compatible Materials</span><span class="spec-value">EVA, PU, Rubber, Fabric</span></div>
+          <div class="spec-row"><span class="spec-label">Application Method</span><span class="spec-value">Brush, Roller, Spray</span></div>
+        </div>
+        <div class="text-center mt-4">
+         <a href="https://titanbond-j9h7.vercel.app/3.pdf"class="btn btn-download" target="_blank" rel="noopener">
+            <i class="fas fa-download"></i>Download Full Specifications
+          </a>
+          <p class="specs-download-note">Complete technical data, compatibility information, and application guidelines</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-4">
+        <div class="footer-brand">TITAN BOND</div>
+        <p class="footer-desc">Premium industrial adhesives formulated in the USA and operating across Pakistan. Strength is our identity.</p>
+        <div class="social-links">
+          <a href="#" class="social-btn" title="Follow us on Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-btn" title="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-btn" title="Follow us on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-btn" title="Follow us on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <p class="footer-heading">Quick Links</p>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#applications">Applications</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#specs">Specifications</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <p class="footer-heading">Products</p>
+        <ul class="footer-links">
+          <li><a href="#products">Industrial Adhesive</a></li>
+          <li><a href="#products">Footwear Adhesive</a></li>
+          <li><a href="#products">General Purpose</a></li>
+          <li><a href="#specs">Download Specs</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="mb-0">© 2026 TITAN BOND | Formulated in 🇺🇸 • Operating in Pakistan 🇵🇰 | All rights reserved</p>
+  </div>
+</footer>
+<a href="#home" class="back-to-top" id="backToTop" title="Back to top"><i class="fas fa-chevron-up"></i></a>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+<script src="scripe.js"></script>
+</body>
+</html>
